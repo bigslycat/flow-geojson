@@ -1,0 +1,4 @@
+extends: ../.eslintrc.yml
+rules:
+  no-use-before-define: off
+  flowtype/no-types-missing-file-annotation: off

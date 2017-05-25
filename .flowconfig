@@ -1,0 +1,11 @@
+[ignore]
+<PROJECT_ROOT>/node_modules/.*
+<PROJECT_ROOT>/lib/.*
+
+[include]
+
+[libs]
+
+[options]
+all=true
+emoji=true

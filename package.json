@@ -1,0 +1,47 @@
+{
+  "name": "flow-geojson",
+  "version": "0.0.1",
+  "description": "Flow type definitions for GeoJSON",
+  "keywords": [
+    "GeoJSON",
+    "Flow",
+    "flowtype",
+    "map"
+  ],
+  "main": "lib/GeoJSON.js",
+  "files": [
+    "README.md",
+    "LICENSE.md",
+    "lib"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "flow": "flow",
+    "prebuild": "yarn run lint && yarn run flow",
+    "build": "shx rm -rf lib && babel-node build",
+    "precommit": "yarn run prebuild",
+    "preversion": "git checkout master && yarn run build",
+    "postversion": "npm publish && git push origin master --tags"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "babel-preset-env": "^1.5.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "11.2.0",
+    "eslint-plugin-flowtype": "^2.33.0",
+    "eslint-plugin-import": "2.3.0",
+    "flow-bin": "^0.46.0",
+    "husky": "^0.13.3",
+    "shx": "^0.2.2"
+  },
+  "repository": "git@github.com:bigslycat/flow-geojson.git",
+  "author": {
+    "name": "Pavel Tereschenko",
+    "email": "me@paclik.pro",
+    "url": "https://github.com/bigslycat"
+  },
+  "license": "MIT"
+}
