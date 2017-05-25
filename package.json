@@ -1,6 +1,6 @@
 {
   "name": "flow-geojson",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Flow type definitions for GeoJSON",
   "keywords": [
     "GeoJSON",
