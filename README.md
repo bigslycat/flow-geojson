@@ -77,5 +77,5 @@ All exported types are named similarly to the type of coordinates used.
 - `GeometryCollection2D`
 - `GeometryCollection3D`
 
-[status-url]: https://travis-ci.org/bigslycat/geojson-types
-[status-img]: https://travis-ci.org/bigslycat/geojson-types.svg?branch=master
+[status-url]: https://travis-ci.org/bigslycat/flow-geojson
+[status-img]: https://travis-ci.org/bigslycat/flow-geojson.svg?branch=master
