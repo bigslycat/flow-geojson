@@ -1,4 +1,4 @@
-# Flow GeoJSON
+# Flow GeoJSON [![Build Status][status-img]][status-url]
 
 Flow type definitions for GeoJSON
 
@@ -43,7 +43,7 @@ type Coord2D = [number, number];
  * [longitude, latitude, altitude]
  */
 type Coord3D = [number, number, number];
-````
+```
 
 All exported types are named similarly to the type of coordinates used.
 
@@ -76,3 +76,6 @@ All exported types are named similarly to the type of coordinates used.
 - `GeometryCollection`
 - `GeometryCollection2D`
 - `GeometryCollection3D`
+
+[status-url]: https://travis-ci.org/bigslycat/geojson-types
+[status-img]: https://travis-ci.org/bigslycat/geojson-types.svg?branch=master
