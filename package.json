@@ -33,7 +33,7 @@
     "eslint-config-airbnb-base": "11.2.0",
     "eslint-plugin-flowtype": "^2.33.0",
     "eslint-plugin-import": "2.3.0",
-    "flow-bin": "^0.46.0",
+    "flow-bin": "^0.47.0",
     "husky": "^0.13.3",
     "shx": "^0.2.2"
   },
