@@ -97,7 +97,7 @@ type JSONArray = JSONArray[];
 
 type Properties = JSONObject | null;
 
-type Coord = number[];
+type Coord = [number, number, number | void];
 type Coord2D = [number, number];
 type Coord3D = [number, number, number];
 
