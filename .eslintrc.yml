@@ -12,6 +12,10 @@ plugins:
 
 rules:
 
+  object-curly-newline:
+    - error
+    - consistent: true
+
   flowtype/boolean-style:
     - error
     - boolean
@@ -33,7 +37,6 @@ rules:
   flowtype/no-weak-types:
     - error
     - any: true
-      Array: true
       Object: true
       Function: true
 
