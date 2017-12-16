@@ -1,7 +1,7 @@
 /* @flow */
 
-import { resolve } from 'path';
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'fs';
+const { resolve } = require('path');
+const { existsSync, mkdirSync, readFileSync, writeFileSync } = require('fs');
 
 const fileName = 'GeoJSON.js';
 const libDir = resolve(__dirname, 'lib');
