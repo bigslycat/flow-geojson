@@ -6,6 +6,7 @@
     "GeoJSON",
     "Flow",
     "flowtype",
+    "maps",
     "map"
   ],
   "main": "lib/GeoJSON.js",
