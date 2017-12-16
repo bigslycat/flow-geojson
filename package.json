@@ -19,7 +19,7 @@
     "lint": "eslint .",
     "flow": "flow",
     "prebuild": "yarn run lint && yarn run flow",
-    "build": "shx rm -rf lib && babel-node build",
+    "build": "shx rm -rf lib && node build",
     "precommit": "yarn run prebuild",
     "preversion": "git checkout master && yarn run build",
     "postversion": "npm publish && git push origin master --tags"
