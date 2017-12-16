@@ -32,7 +32,7 @@ Because of the flow restrictions, the package uses three types of coordinates:
  * For universal, but less strict type checking
  * [longitude, latitude] or [longitude, latitude, altitude]
  */
-type Coord   = number[];
+type Coord   = [number, number, number | void];
 
 /**
  * [longitude, latitude]
