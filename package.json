@@ -1,6 +1,6 @@
 {
   "name": "flow-geojson",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Flow type definitions for GeoJSON",
   "engines": {
     "node": ">=6.0.0"
