@@ -49,7 +49,7 @@ All exported types are named similarly to the type of coordinates used.
 
 ### Opaque types support
 
-Since version 1.0.0, you can use types with the suffix "Strict". For example `Point3D`
+Since version 2.0.0, you can use types with the suffix `Strict`. For example `Point3D`
 contains `[number, number, number]` when `Point3DStrict` contains `[Longitude, Latitude, Altitude]`.
 
 ### Available types
