@@ -22,7 +22,7 @@
     "build": "shx rm -rf lib && node build",
     "precommit": "yarn run prebuild",
     "preversion": "git checkout master && yarn run build",
-    "postversion": "npm publish && git push origin master --tags"
+    "postversion": "npm publish && git push --follow-tags"
   },
   "devDependencies": {
     "babel-eslint": "^8.0.3",
