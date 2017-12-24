@@ -143,14 +143,14 @@ type GeometryCollectionTemplate<G> = {
 
 type FeatureTemplate<G> = {
   type: 'Feature',
-  bbox: Bbox,
+  bbox?: Bbox,
   properties: Properties,
   geometry: G,
 };
 
 type FeatureCollectionTemplate<F> = {
   type: 'FeatureCollection',
-  bbox: Bbox,
+  bbox?: Bbox,
   features: F,
 };
 
