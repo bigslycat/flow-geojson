@@ -131,45 +131,45 @@ export type GeometryCollection3DStrict = GeometryCollectionTemplate<(
   Polygon3DStrict | MultiPolygon3DStrict
 )>;
 
-type Geometry<T, C> = {
+export type Geometry<T, C> = {
   type: T,
   coordinates: C,
 };
 
-type GeometryCollectionTemplate<G> = {
+export type GeometryCollectionTemplate<G> = {
   type: 'GeometryCollection',
   geometries: G,
 };
 
-type FeatureTemplate<G> = {
+export type FeatureTemplate<G> = {
   type: 'Feature',
   bbox?: Bbox,
   properties: Properties,
   geometry: G,
 };
 
-type FeatureCollectionTemplate<F> = {
+export type FeatureCollectionTemplate<F> = {
   type: 'FeatureCollection',
   bbox?: Bbox,
   features: F,
 };
 
-type JSONType = JSONObject | JSONArray | string | number | null;
-type JSONObject = { [key: string]: JSONType };
-type JSONArray = JSONArray[];
+export type JSONType = JSONObject | JSONArray | string | number | null;
+export type JSONObject = { [key: string]: JSONType };
+export type JSONArray = JSONArray[];
 
-type Properties = JSONObject | null;
+export type Properties = JSONObject | null;
 
-type Coord = [number, number, number | void];
-type CoordStrict = [Longitude, Latitude, Altitude | void];
+export type Coord = [number, number, number | void];
+export type CoordStrict = [Longitude, Latitude, Altitude | void];
 
-type Coord2D = [number, number];
-type Coord2DStrict = [Longitude, Latitude];
+export type Coord2D = [number, number];
+export type Coord2DStrict = [Longitude, Latitude];
 
-type Coord3D = [number, number, number];
-type Coord3DStrict = [Longitude, Latitude, Altitude];
+export type Coord3D = [number, number, number];
+export type Coord3DStrict = [Longitude, Latitude, Altitude];
 
-type Bbox = [number, number, number, number];
+export type Bbox = [number, number, number, number];
 
 export opaque type Longitude: number = number;
 export opaque type Latitude: number = number;
