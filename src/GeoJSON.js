@@ -171,6 +171,6 @@ type Coord3DStrict = [Longitude, Latitude, Altitude];
 
 type Bbox = [number, number, number, number];
 
-export opaque type Longitude = number;
-export opaque type Latitude = number;
-export opaque type Altitude = number;
+export opaque type Longitude: number = number;
+export opaque type Latitude: number = number;
+export opaque type Altitude: number = number;
