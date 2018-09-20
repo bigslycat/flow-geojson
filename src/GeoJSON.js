@@ -88,12 +88,12 @@ export type Polygon2DStrict = Geometry<'Polygon', Coord2DStrict[][]>;
 export type Polygon3D = Geometry<'Polygon', Coord3D[][]>;
 export type Polygon3DStrict = Geometry<'Polygon', Coord3DStrict[][]>;
 
-export type MultiPolygon = Geometry<'MultiPolygon', Coord[][]>;
-export type MultiPolygonStrict = Geometry<'MultiPolygon', CoordStrict[][]>;
-export type MultiPolygon2D = Geometry<'MultiPolygon', Coord2D[][]>;
-export type MultiPolygon2DStrict = Geometry<'MultiPolygon', Coord2DStrict[][]>;
-export type MultiPolygon3D = Geometry<'MultiPolygon', Coord3D[][]>;
-export type MultiPolygon3DStrict = Geometry<'MultiPolygon', Coord3DStrict[][]>;
+export type MultiPolygon = Geometry<'MultiPolygon', Coord[][][]>;
+export type MultiPolygonStrict = Geometry<'MultiPolygon', CoordStrict[][][]>;
+export type MultiPolygon2D = Geometry<'MultiPolygon', Coord2D[][][]>;
+export type MultiPolygon2DStrict = Geometry<'MultiPolygon', Coord2DStrict[][][]>;
+export type MultiPolygon3D = Geometry<'MultiPolygon', Coord3D[][][]>;
+export type MultiPolygon3DStrict = Geometry<'MultiPolygon', Coord3DStrict[][][]>;
 
 export type GeometryCollection = GeometryCollectionTemplate<(
   Point | MultiPoint |
