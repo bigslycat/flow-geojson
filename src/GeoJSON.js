@@ -156,7 +156,7 @@ export type FeatureCollectionTemplate<F> = {
 
 export type JSONType = JSONObject | JSONArray | string | number | null;
 export type JSONObject = { [key: string]: JSONType };
-export type JSONArray = JSONArray[];
+export type JSONArray = JSONType[];
 
 export type Properties = JSONObject | null;
 
