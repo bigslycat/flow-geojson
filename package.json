@@ -34,7 +34,7 @@
     "eslint-plugin-flowtype": "^2.40.1",
     "eslint-plugin-import": "^2.8.0",
     "flow-bin": "^0.88.0",
-    "husky": "^0.14.3",
+    "husky": "^1.2.0",
     "shx": "^0.3.2"
   },
   "repository": "git@github.com:bigslycat/flow-geojson.git",
