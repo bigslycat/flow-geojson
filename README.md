@@ -1,5 +1,7 @@
 # Flow GeoJSON [![Build Status][status-img]][status-url]
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/bigslycat/flow-geojson.svg)](https://greenkeeper.io/)
+
 Flow type definitions for GeoJSON
 
 - [Install](#install)

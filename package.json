@@ -28,13 +28,13 @@
     "postversion": "npm publish && git push --follow-tags"
   },
   "devDependencies": {
-    "babel-eslint": "^8.0.3",
-    "eslint": "^4.13.1",
-    "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-flowtype": "^2.40.1",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.10.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-flowtype": "^3.2.0",
     "eslint-plugin-import": "^2.8.0",
-    "flow-bin": "^0.88.0",
-    "husky": "^0.14.3",
+    "flow-bin": "^0.89.0",
+    "husky": "^1.2.1",
     "shx": "^0.3.2"
   },
   "repository": "git@github.com:bigslycat/flow-geojson.git",
